@@ -1,0 +1,26 @@
+.header{
+    color: rgb(167, 162, 162);
+    display: flex;
+flex-direction: row;
+justify-content: space-evenly; 
+background-image: url(../img/cabecera.jpg);
+}
+body{
+    background-color: rgb(185, 185, 185);
+}
+.barra{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  padding: 5px 0px 0px 50%;
+
+}
+.formacion a{
+    padding-right:60px;
+    text-decoration: none;
+    color:  rgb(185, 185, 185);
+   ;
+}
+a:hover {
+    color:rgb(19, 166, 168)
+  }
